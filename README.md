@@ -27,8 +27,6 @@ The full dataset contains four smaller datasets:
 * MSR (Simplified Chinese)
 * PKU (Simplified Chinese)
 
-## Training
-
 ### Model
 
 Based on paper of reference model: https://aclweb.org/anthology/D18-1529
@@ -37,7 +35,7 @@ Based on paper of reference model: https://aclweb.org/anthology/D18-1529
 
 | Model                                                        |
 | ------------------------------------------------------------ |
-| <img src="media/model.svg" alt="model" style="zoom: 250%;" /> |
+| <img src="media/model.svg" alt="model" style="zoom: 500%;" /> |
 | Figure: Bi-LSTM models: (a) non-stacking, (b) stacking. Blue circles are input (char and char bigram) embeddings. <br />Red squares are LSTM cells. BIES is a 4-way softmax. |
 
 **Training**
