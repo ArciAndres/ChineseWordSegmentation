@@ -35,7 +35,7 @@ Based on paper of reference model: https://aclweb.org/anthology/D18-1529
 
 | Model                                                        |
 | ------------------------------------------------------------ |
-| <img src="media/model.svg" alt="model" style="zoom: 500%;" /> |
+| <img src="media/model.svg" alt="model" width=800px />        |
 | Figure: Bi-LSTM models: (a) non-stacking, (b) stacking. Blue circles are input (char and char bigram) embeddings. <br />Red squares are LSTM cells. BIES is a 4-way softmax. |
 
 **Training**
