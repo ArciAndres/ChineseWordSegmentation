@@ -44,7 +44,7 @@ Based on paper of reference model: https://aclweb.org/anthology/D18-1529
 
 Training was performed with 30% of the merged dataset, and final model with 100% after tuning parameters. The following figures depict one of the performed grid search variations. Static learning rate of 0.0005, and variable dropout in recurrent units with values `[0, 0.1,0.4,0.6]`. Shows sings of overfitting. Read the complete information report in `NLP_HW1_Report.pdf`.
 
-![image-20210110164259523](D:\GoogleDrive\MasterTemp\NLP\HW1\media\image-trainings.png)
+![image-20210110164259523](media/image-trainings.png)
 
 ## Testing
 
