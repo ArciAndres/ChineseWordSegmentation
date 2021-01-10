@@ -17,7 +17,9 @@ This repository provides an already trained model to perform the task on a given
 
 ## Training
 
-### Datasets 
+Much of the preprocessing and training was performed in [Google Colab](https://colab.research.google.com/), with notebooks that explain step-by-step the whole process. Feel free to explore them in `resources/FilesUsedForTraining`.
+
+### Datasets
 
 Download the dataset: http://sighan.cs.uchicago.edu/bakeoff2005/
 The full dataset contains four smaller datasets:
