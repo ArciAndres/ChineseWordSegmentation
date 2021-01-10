@@ -10,14 +10,12 @@ This repository provides an already trained model to perform the task on a given
 
 **Output example:**
 
-| Input                                                        | Output                                  | Result                                                       |
-| ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------------ |
-| `theansweris42!`                                             | BIEBIIIIEBEBES                          | `the answer is 42 !`                                         |
-| 分佈：<br/>主要分佈在熱帶及亞熱帶水域，<br/>溫帶水域亦有其活動記錄。 | BES<br/>BEBESBESBIEBES<br/>BEBESSSBEBES | 分佈 ：<br/>主要 分佈 在 熱帶 及 亞熱帶 水域 ，<br/>溫帶 水域 亦 有 其 活動 記錄 。 |
+| Language            | Input                                                        | Output                                  | Result                                                       |
+| ------------------- | ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------------ |
+| English (example)   | `theansweris42!`                                             | BIEBIIIIEBEBES                          | `the answer is 42 !`                                         |
+| Chinese (this repo) | 分佈：<br/>主要分佈在熱帶及亞熱帶水域，<br/>溫帶水域亦有其活動記錄。 | BES<br/>BEBESBESBIEBES<br/>BEBESSSBEBES | 分佈 ：<br/>主要 分佈 在 熱帶 及 亞熱帶 水域 ，<br/>溫帶 水域 亦 有 其 活動 記錄 。 |
 
 ## Training
-
-
 
 ### Datasets 
 
@@ -29,8 +27,10 @@ The full dataset contains four smaller datasets:
 * MSR (Simplified Chinese)
 * PKU (Simplified Chinese)
 
-## Model
+## Testing
 
+### Model
 
+A pretrained model and vocabulary set is provided in this folder:
 
 https://drive.google.com/drive/folders/1WBGOIS-VK7E8vpzOEUWD5vzXjQLjWM2g?usp=sharing
