@@ -27,7 +27,7 @@ The full dataset contains four smaller datasets:
 * MSR (Simplified Chinese)
 * PKU (Simplified Chinese)
 
-## Testing
+## Training
 
 ### Model
 
@@ -37,10 +37,18 @@ Based on paper of reference model: https://aclweb.org/anthology/D18-1529
 
 | Model                                                        |
 | ------------------------------------------------------------ |
-| <img src="D:\GoogleDrive\MasterTemp\NLP\HW1\media\model.svg" alt="model" style="zoom: 250%;" /> |
+| <img src="media/model.svg" alt="model" style="zoom: 250%;" /> |
 | Figure: Bi-LSTM models: (a) non-stacking, (b) stacking. Blue circles are input (char and char bigram) embeddings. <br />Red squares are LSTM cells. BIES is a 4-way softmax. |
 
-#### Pretrained model:
+**Training**
+
+Training was performed with 30% of the merged dataset, and final model with 100% after tuning parameters. The following figures depict one of the performed grid search variations. Static learning rate of 0.0005, and variable dropout in recurrent units with values `[0, 0.1,0.4,0.6]`. Shows sings of overfitting. Read the complete information report in `NLP_HW1_Report.pdf`.
+
+![image-20210110164259523](D:\GoogleDrive\MasterTemp\NLP\HW1\media\image-trainings.png)
+
+## Testing
+
+**Pretrained model**
 
 
 A pretrained model and vocabulary set is provided in this folder:
@@ -48,8 +56,6 @@ A pretrained model and vocabulary set is provided in this folder:
 https://drive.google.com/drive/folders/1WBGOIS-VK7E8vpzOEUWD5vzXjQLjWM2g?usp=sharing
 
 The files should be located in `resources/Model` to be used by the `predict.py` and `score.py` scripts.
-
-
 
 ### Predict
 
@@ -68,10 +74,8 @@ If a `gold_file` is available, the accuracy of the prediction can be tested on t
 
 ```
 Example:
-    predictions_iter = ["BEBESBIIE",
-  					    "BIIIEBEBESS"]
-    gold_iter = ["BEBIEBIES",
-    			 "BIIESBEBESS"]
+    predictions_iter = ["BEBESBIIE", "BIIIEBEBESS"]
+    gold_iter = ["BEBIEBIES", "BIIESBEBESS"]
     output: 0.7
 ```
 
