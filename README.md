@@ -31,7 +31,17 @@ The full dataset contains four smaller datasets:
 
 ### Model
 
-Paper of reference model: https://aclweb.org/anthology/D18-1529
+Based on paper of reference model: https://aclweb.org/anthology/D18-1529
+
+(Ma et al., 2018) State-of-the-art Chinese Word Segmentation with Bi-LSTMs:
+
+| Model                                                        |
+| ------------------------------------------------------------ |
+| <img src="D:\GoogleDrive\MasterTemp\NLP\HW1\media\model.svg" alt="model" style="zoom: 250%;" /> |
+| Figure: Bi-LSTM models: (a) non-stacking, (b) stacking. Blue circles are input (char and char bigram) embeddings. <br />Red squares are LSTM cells. BIES is a 4-way softmax. |
+
+#### Pretrained model:
+
 
 A pretrained model and vocabulary set is provided in this folder:
 
